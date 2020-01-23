@@ -16,6 +16,9 @@
 		82881D0723C45EB20028CB46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82881D0523C45EB20028CB46 /* LaunchScreen.storyboard */; };
 		82881D1223C45EB20028CB46 /* UItableviewCustomcellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82881D1123C45EB20028CB46 /* UItableviewCustomcellTests.swift */; };
 		82881D1D23C45EB20028CB46 /* UItableviewCustomcellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82881D1C23C45EB20028CB46 /* UItableviewCustomcellUITests.swift */; };
+		82881D2C23C45F900028CB46 /* TableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82881D2A23C45F900028CB46 /* TableViewCell1.swift */; };
+		82881D2D23C45F900028CB46 /* TableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82881D2B23C45F900028CB46 /* TableViewCell1.xib */; };
+		82881D3023C473DC0028CB46 /* SCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82881D2E23C473DC0028CB46 /* SCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		82881D1823C45EB20028CB46 /* UItableviewCustomcellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UItableviewCustomcellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82881D1C23C45EB20028CB46 /* UItableviewCustomcellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UItableviewCustomcellUITests.swift; sourceTree = "<group>"; };
 		82881D1E23C45EB20028CB46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82881D2A23C45F900028CB46 /* TableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell1.swift; sourceTree = "<group>"; };
+		82881D2B23C45F900028CB46 /* TableViewCell1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell1.xib; sourceTree = "<group>"; };
+		82881D2E23C473DC0028CB46 /* SCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +110,14 @@
 				82881CF723C45EA70028CB46 /* AppDelegate.swift */,
 				82881CF923C45EA70028CB46 /* SceneDelegate.swift */,
 				82881CFB23C45EA70028CB46 /* ViewController.swift */,
+				82881D2E23C473DC0028CB46 /* SCViewController.swift */,
 				82881CFD23C45EA70028CB46 /* Main.storyboard */,
 				82881D0323C45EB20028CB46 /* Assets.xcassets */,
 				82881D0523C45EB20028CB46 /* LaunchScreen.storyboard */,
 				82881D0823C45EB20028CB46 /* Info.plist */,
 				82881D0023C45EA70028CB46 /* UItableviewCustomcell.xcdatamodeld */,
+				82881D2A23C45F900028CB46 /* TableViewCell1.swift */,
+				82881D2B23C45F900028CB46 /* TableViewCell1.xib */,
 			);
 			path = UItableviewCustomcell;
 			sourceTree = "<group>";
@@ -238,6 +247,7 @@
 				82881D0723C45EB20028CB46 /* LaunchScreen.storyboard in Resources */,
 				82881D0423C45EB20028CB46 /* Assets.xcassets in Resources */,
 				82881CFF23C45EA70028CB46 /* Main.storyboard in Resources */,
+				82881D2D23C45F900028CB46 /* TableViewCell1.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +272,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82881D3023C473DC0028CB46 /* SCViewController.swift in Sources */,
+				82881D2C23C45F900028CB46 /* TableViewCell1.swift in Sources */,
 				82881CFC23C45EA70028CB46 /* ViewController.swift in Sources */,
 				82881CF823C45EA70028CB46 /* AppDelegate.swift in Sources */,
 				82881D0223C45EA70028CB46 /* UItableviewCustomcell.xcdatamodeld in Sources */,
